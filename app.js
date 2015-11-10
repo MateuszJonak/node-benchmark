@@ -1,6 +1,5 @@
 var express = require('express');
 var logger = require('morgan');
-var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
 
@@ -8,11 +7,6 @@ var app = express();
 
 // Log in console
 app.use(logger('dev'));
-
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({
-  extended: true
-}));
 
 app.use('/', routes);
 
