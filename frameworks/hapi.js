@@ -4,13 +4,13 @@ var server = new Hapi.Server();
 server.connection({ port: 3000 });
 
 server.start(function () {
-  console.log('Server running at:', server.info.uri);
+    console.log('Server running at:', server.info.uri);
 });
 
 server.route({
-  method: 'GET',
-  path: '/',
-  handler: function (request, reply) {
-    reply({}).code(204);
-  }
+    method: 'GET',
+    path: '/',
+    handler: function (request, reply) {
+        reply({}).code(204);
+    }
 });
