@@ -8,6 +8,7 @@
   "dependencies": {
     "express": "^4.13.3",
     "hapi": "^11.1.0",
+    "koa": "^1.1.2",
     "sails": "^0.11.2"
   },
   "devDependencies": {

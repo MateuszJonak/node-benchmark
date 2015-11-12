@@ -6,7 +6,7 @@ var minimist = require('minimist');
 
 // OPTIONS
 var options = minimist(process.argv.slice(2));
-options.framework = options.framework || 'express';
+options.framework = options.framework || 'node';
 
 gulp.task('develop', function () {
   var nodemonConf = {
