@@ -1,10 +1,6 @@
 var express = require('express');
-var logger = require('morgan');
 
 var app = express();
-
-// Log in console
-app.use(logger('dev'));
 
 app.get('/', function (req, res) {
   res.status(204).send();
