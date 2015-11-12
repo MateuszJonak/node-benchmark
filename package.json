@@ -7,9 +7,12 @@
   },
   "dependencies": {
     "express": "^4.13.3",
+    "flatiron": "^0.4.3",
     "hapi": "^11.1.0",
+    "interfake": "^1.17.0",
     "koa": "^1.1.2",
-    "sails": "^0.11.2"
+    "sails": "^0.11.2",
+    "union": "^0.4.4"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
